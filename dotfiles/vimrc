@@ -1,0 +1,7 @@
+set relativenumber
+set clipboard=unnamedplus
+set viminfo=
+vnoremap <C-S-C> "+y
+nnoremap <C-S-V> "+P
+inoremap <C-S-V> <C-r>+
+cnoremap <C-S-V> <C-r>+

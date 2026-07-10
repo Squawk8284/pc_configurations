@@ -1,0 +1,9 @@
+[user]
+	name = Kartik Sahasrabudhe
+	email = 126381962+Squawk8284@users.noreply.github.com
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[tag]
+	gpgSign = true

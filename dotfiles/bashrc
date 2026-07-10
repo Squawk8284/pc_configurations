@@ -105,6 +105,8 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+#--------------------------- USER DEFINED SECTION START ------------------------------------#
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -119,3 +121,6 @@ fi
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export GPG_TTY=$(tty)
 gpg-connect-agent updatestartuptty /bye >/dev/null
+export PATH="$HOME/.local/bin:$PATH"
+#--------------------------- USER DEFINED SECTION END ------------------------------------#
+
